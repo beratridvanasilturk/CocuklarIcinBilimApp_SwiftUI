@@ -10,14 +10,11 @@ import SwiftUI
 struct MainView: View {
     
     var body: some View {
-#if canImport(UIKit)
         if #available(iOS 17.0, *) {
-            CollectionViewiOS16()
+            MainViewiOS17()
         } else if #available(iOS 15.0, *) {
-            CollectionViewiOS15()
+            MainViewiOS15()
         }
-#else
-#endif
     }
 }
 
@@ -27,7 +24,7 @@ struct Model: Identifiable, Hashable, Codable {
 }
 
 @available(iOS 15.0, *)
-struct CollectionViewiOS15: View {
+struct MainViewiOS15: View {
     
     @State var items : [Model] = [
         Model(title: "Günlük Bilim Haberleri"),
@@ -52,7 +49,7 @@ struct CollectionViewiOS15: View {
 }
 
 @available(iOS 17.0, *)
-struct CollectionViewiOS16: View {
+struct MainViewiOS17: View {
     
     @State var items : [Model] = [
         Model(title: "Günlük Bilim Haberleri"),

@@ -9,14 +9,13 @@ import SwiftUI
 
 struct NewsView: View {
     
-    @StateObject var newsViewModel = NewsViewModel()
+    @ObservedObject var newsViewModel = NewsViewModel()
     
     var body: some View {
-        //        NavigationView{
         List {
             ForEach(newsViewModel.articleArray, id: \.self) { content in
                 VStack {
-                    //droplast: sondan baslayarak string karakteri silmede kullanildi
+                    //droplast & dropFirst: String karakteri silmede kullanildi
                     Text(content.publishedAt?.dropFirst(11).dropLast(4) ?? "")
                     Text(content.title ?? "")
                         .frame(width: UIScreen.main.bounds.width * 0.8, alignment: .leading)
@@ -34,11 +33,11 @@ struct NewsView: View {
                 }
             } .navigationTitle("Günlük Bilim Haberleri")
         }
+        // onAppear await olmadigi icin task kullanildi
         .task {
             await newsViewModel.fetchData()
         }
     }
-//}
 }
 
 struct NewsView_Previews: PreviewProvider {

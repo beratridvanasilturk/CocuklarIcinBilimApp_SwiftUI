@@ -34,35 +34,27 @@ struct ScienceContentsForKids: View {
     ]
     
     var body: some View {
-        NavigationView {
-            List(contentsHeader) { hikaye in
-                NavigationLink(destination: KidsContentView(contentInScienceForKids: hikaye)) {
-                    VStack {
-                        ZStack{
-                            Image(hikaye.headerImage)
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                                .frame(height: 160)
-                                .clipped()
-                        }
-                        Text(hikaye.baslik)
-                            .fontWeight(.bold)
-                            .font(.custom("Righteous-Regular", size: 18))
-                            .padding(20)
-                        
-                        Text(hikaye.timer)
-                            .fontWeight(.bold)
-                            .font(.custom("Righteous-Regular", size: 14))
-                            .offset(y: -15)
-                            .frame(width: UIScreen.main.bounds.width * 0.7, alignment: .trailing)
+        List(contentsHeader) { hikaye in
+            NavigationLink(destination: KidsContentView(contentInScienceForKids: hikaye)) {
+                VStack {
+                    ZStack{
+                        Image(hikaye.headerImage)
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(height: 160)
+                            .clipped()
                     }
-                    // Arkaplandaki tertiarySystemFill rengi ile hucrenin belirginligini artirir
-                    .background(Color.purple.opacity(0.2))
-                    .cornerRadius(40)
+                    Text(hikaye.baslik)
+                        .fontWeight(.bold)
+                        .font(.custom("Righteous-Regular", size: 18))
+                        .padding(20)
                 }
+                // Arkaplandaki rengi hucrenin belirginligini artirir
+                .background(Color.purple.opacity(0.2))
+                .cornerRadius(40)
             }
-            .listStyle(.inset)
         }
+        .listStyle(.inset)
     }
 }
 

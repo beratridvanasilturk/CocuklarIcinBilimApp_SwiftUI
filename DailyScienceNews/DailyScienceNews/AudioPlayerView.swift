@@ -9,6 +9,7 @@ import SwiftUI
 import AVFoundation
 
 struct PlayerControls: View {
+    
     var player: AVPlayer
     
     var body: some View {
@@ -18,8 +19,7 @@ struct PlayerControls: View {
                 Button(action: {
                     // Geri sarma
                     let forwardTime = CMTime(seconds: 10, preferredTimescale: 1)
-                    
-                    // AVPlayer'ı kullanarak ileri sarma işlemi gerçekleştirin
+                    // AVPlayer'ı kullanarak gerı sarma işlemi gerçekleştirin
                     player.seek(to: (player.currentTime()) - forwardTime)
                 }) {
                     Image("tenleft")
@@ -28,7 +28,6 @@ struct PlayerControls: View {
                         .frame(maxWidth: 50, maxHeight: 50)
                 }
                 .padding()
-                
                 Button(action: {
                     
                     // Duraklat veya oynat
@@ -44,11 +43,9 @@ struct PlayerControls: View {
                         .frame(maxWidth: 80, maxHeight: 80)
                 }
                 .padding()
-                
                 Button(action: {
                     // İleri sarma
                     let forwardTime = CMTime(seconds: 10, preferredTimescale: 1)
-                    
                     // AVPlayer'ı kullanarak ileri sarma işlemi gerçekleştirin
                     player.seek(to: (player.currentTime()) + forwardTime)
                 }) {

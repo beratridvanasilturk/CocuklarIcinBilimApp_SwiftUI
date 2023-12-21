@@ -12,18 +12,16 @@ struct KidsContentView: View {
     
     @State private var player: AVPlayer?
     @StateObject private var audioPlayerManager = AudioPlayerManager()
-    @State private var currentIndex = 0
-    var contentInScienceForKids: Content
     @State var rotation: CGFloat = 0.0
     @State var offset = CGSize.zero
-    @State var color: Color = .black
+    var contentInScienceForKids: Content
     
     var body: some View {
         
         ScrollView {
             VStack {
                 ZStack{
-                    // Snake animation
+                    // Snake colorful animation
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width: 520, height: 220)
                         .foregroundStyle(LinearGradient(gradient: Gradient(colors: [Color.pink, Color.indigo]), startPoint: .top, endPoint: .bottom))
@@ -33,7 +31,6 @@ struct KidsContentView: View {
                                 .stroke(lineWidth: 5)
                                 .frame(width: 1310, height: 310)
                         }
-                    
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width: 320, height: 120)
                         .foregroundStyle(LinearGradient(gradient: Gradient(colors: [Color.teal, Color.purple]), startPoint: .top, endPoint: .bottom))
@@ -52,7 +49,6 @@ struct KidsContentView: View {
                 }
                 .padding()
                 Spacer()
-                
                 VStack {
                     Text(contentInScienceForKids.baslik)
                         .frame(width: UIScreen.main.bounds.width * 0.95)

@@ -14,15 +14,6 @@ class AudioPlayerManager: ObservableObject {
     private var audioPlayer: AVAudioPlayer!
     var contentInScienceForKidsView: Content?
     
-    init() {
-        do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.mixWithOthers, .allowAirPlay])
-            try AVAudioSession.sharedInstance().setActive(true)
-        } catch {
-            print("Failed to configure AVAudioSession: \(error.localizedDescription)")
-        }
-    }
-    
     func play(url: URL) {
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url)
