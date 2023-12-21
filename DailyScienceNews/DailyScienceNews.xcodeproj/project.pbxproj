@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA06FAF92B247A280048821D /* ScienceForKidsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06FAF82B247A280048821D /* ScienceForKidsView.swift */; };
+		EA06FAFB2B247A920048821D /* KidsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06FAFA2B247A920048821D /* KidsContentView.swift */; };
+		EA06FAFD2B247B540048821D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06FAFC2B247B540048821D /* MainView.swift */; };
+		EA06FAFF2B247CCD0048821D /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06FAFE2B247CCD0048821D /* AudioPlayerManager.swift */; };
+		EA06FB0F2B24879E0048821D /* Görme Duyusu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB012B24879B0048821D /* Görme Duyusu.mp3 */; };
+		EA06FB102B24879E0048821D /* Proteinler Nelerdir?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB022B24879B0048821D /* Proteinler Nelerdir?.mp3 */; };
+		EA06FB112B24879E0048821D /* Virüs Ve Bakteri Farklılıkları.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB032B24879B0048821D /* Virüs Ve Bakteri Farklılıkları.mp3 */; };
+		EA06FB122B24879E0048821D /* Koku Alma Duyusu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB042B24879B0048821D /* Koku Alma Duyusu.mp3 */; };
+		EA06FB132B24879E0048821D /* Geometride Çevre Nedir?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB052B24879C0048821D /* Geometride Çevre Nedir?.mp3 */; };
+		EA06FB142B24879E0048821D /* Bakteri Nedir?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB062B24879C0048821D /* Bakteri Nedir?.mp3 */; };
+		EA06FB152B24879E0048821D /* Atmosfer - Dünyanın Katmanları.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB072B24879D0048821D /* Atmosfer - Dünyanın Katmanları.mp3 */; };
+		EA06FB162B24879E0048821D /* Pi Sayısı (π).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB082B24879D0048821D /* Pi Sayısı (π).mp3 */; };
+		EA06FB172B24879E0048821D /* Mikroorganizmalar Bakteriler Virüsler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB092B24879D0048821D /* Mikroorganizmalar Bakteriler Virüsler.mp3 */; };
+		EA06FB182B24879E0048821D /* Su Yaşam Alanları.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB0A2B24879D0048821D /* Su Yaşam Alanları.mp3 */; };
+		EA06FB192B24879E0048821D /* Karbonhidratlar Nelerdir?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB0B2B24879E0048821D /* Karbonhidratlar Nelerdir?.mp3 */; };
+		EA06FB1A2B24879E0048821D /* Beyin Nedir ve Nasıl Çalışır?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB0C2B24879E0048821D /* Beyin Nedir ve Nasıl Çalışır?.mp3 */; };
+		EA06FB1B2B24879E0048821D /* Dokunma Duyusu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB0D2B24879E0048821D /* Dokunma Duyusu.mp3 */; };
+		EA06FB1C2B24879E0048821D /* Nasıl Tat Alırız?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA06FB0E2B24879E0048821D /* Nasıl Tat Alırız?.mp3 */; };
+		EA1A3F9F2B3408A0007EA343 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A3F9E2B3408A0007EA343 /* AudioPlayerView.swift */; };
 		EA79169E2B21FFF000ECCFE9 /* DailyScienceNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79169D2B21FFF000ECCFE9 /* DailyScienceNewsApp.swift */; };
 		EA7916A02B21FFF000ECCFE9 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79169F2B21FFF000ECCFE9 /* NewsView.swift */; };
 		EA7916A22B21FFF300ECCFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7916A12B21FFF300ECCFE9 /* Assets.xcassets */; };
@@ -15,6 +34,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA06FAF82B247A280048821D /* ScienceForKidsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceForKidsView.swift; sourceTree = "<group>"; };
+		EA06FAFA2B247A920048821D /* KidsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsContentView.swift; sourceTree = "<group>"; };
+		EA06FAFC2B247B540048821D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EA06FAFE2B247CCD0048821D /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		EA06FB012B24879B0048821D /* Görme Duyusu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Görme Duyusu.mp3"; sourceTree = "<group>"; };
+		EA06FB022B24879B0048821D /* Proteinler Nelerdir?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Proteinler Nelerdir?.mp3"; sourceTree = "<group>"; };
+		EA06FB032B24879B0048821D /* Virüs Ve Bakteri Farklılıkları.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Virüs Ve Bakteri Farklılıkları.mp3"; sourceTree = "<group>"; };
+		EA06FB042B24879B0048821D /* Koku Alma Duyusu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Koku Alma Duyusu.mp3"; sourceTree = "<group>"; };
+		EA06FB052B24879C0048821D /* Geometride Çevre Nedir?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Geometride Çevre Nedir?.mp3"; sourceTree = "<group>"; };
+		EA06FB062B24879C0048821D /* Bakteri Nedir?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bakteri Nedir?.mp3"; sourceTree = "<group>"; };
+		EA06FB072B24879D0048821D /* Atmosfer - Dünyanın Katmanları.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Atmosfer - Dünyanın Katmanları.mp3"; sourceTree = "<group>"; };
+		EA06FB082B24879D0048821D /* Pi Sayısı (π).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pi Sayısı (π).mp3"; sourceTree = "<group>"; };
+		EA06FB092B24879D0048821D /* Mikroorganizmalar Bakteriler Virüsler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mikroorganizmalar Bakteriler Virüsler.mp3"; sourceTree = "<group>"; };
+		EA06FB0A2B24879D0048821D /* Su Yaşam Alanları.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Su Yaşam Alanları.mp3"; sourceTree = "<group>"; };
+		EA06FB0B2B24879E0048821D /* Karbonhidratlar Nelerdir?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Karbonhidratlar Nelerdir?.mp3"; sourceTree = "<group>"; };
+		EA06FB0C2B24879E0048821D /* Beyin Nedir ve Nasıl Çalışır?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beyin Nedir ve Nasıl Çalışır?.mp3"; sourceTree = "<group>"; };
+		EA06FB0D2B24879E0048821D /* Dokunma Duyusu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dokunma Duyusu.mp3"; sourceTree = "<group>"; };
+		EA06FB0E2B24879E0048821D /* Nasıl Tat Alırız?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nasıl Tat Alırız?.mp3"; sourceTree = "<group>"; };
+		EA1A3F9E2B3408A0007EA343 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
 		EA79169A2B21FFF000ECCFE9 /* DailyScienceNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyScienceNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA79169D2B21FFF000ECCFE9 /* DailyScienceNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScienceNewsApp.swift; sourceTree = "<group>"; };
 		EA79169F2B21FFF000ECCFE9 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
@@ -34,6 +72,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA06FB002B24878B0048821D /* KidsContentSounds */ = {
+			isa = PBXGroup;
+			children = (
+				EA06FB072B24879D0048821D /* Atmosfer - Dünyanın Katmanları.mp3 */,
+				EA06FB062B24879C0048821D /* Bakteri Nedir?.mp3 */,
+				EA06FB0C2B24879E0048821D /* Beyin Nedir ve Nasıl Çalışır?.mp3 */,
+				EA06FB0D2B24879E0048821D /* Dokunma Duyusu.mp3 */,
+				EA06FB052B24879C0048821D /* Geometride Çevre Nedir?.mp3 */,
+				EA06FB012B24879B0048821D /* Görme Duyusu.mp3 */,
+				EA06FB0B2B24879E0048821D /* Karbonhidratlar Nelerdir?.mp3 */,
+				EA06FB042B24879B0048821D /* Koku Alma Duyusu.mp3 */,
+				EA06FB092B24879D0048821D /* Mikroorganizmalar Bakteriler Virüsler.mp3 */,
+				EA06FB0E2B24879E0048821D /* Nasıl Tat Alırız?.mp3 */,
+				EA06FB082B24879D0048821D /* Pi Sayısı (π).mp3 */,
+				EA06FB022B24879B0048821D /* Proteinler Nelerdir?.mp3 */,
+				EA06FB0A2B24879D0048821D /* Su Yaşam Alanları.mp3 */,
+				EA06FB032B24879B0048821D /* Virüs Ve Bakteri Farklılıkları.mp3 */,
+			);
+			path = KidsContentSounds;
+			sourceTree = "<group>";
+		};
 		EA7916912B21FFF000ECCFE9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +113,15 @@
 			isa = PBXGroup;
 			children = (
 				EA79169D2B21FFF000ECCFE9 /* DailyScienceNewsApp.swift */,
+				EA06FAFC2B247B540048821D /* MainView.swift */,
 				EA79169F2B21FFF000ECCFE9 /* NewsView.swift */,
 				EA7916AB2B22007200ECCFE9 /* NewsViewModel.swift */,
+				EA06FAF82B247A280048821D /* ScienceForKidsView.swift */,
+				EA06FAFA2B247A920048821D /* KidsContentView.swift */,
+				EA1A3F9E2B3408A0007EA343 /* AudioPlayerView.swift */,
+				EA06FAFE2B247CCD0048821D /* AudioPlayerManager.swift */,
 				EA7916A12B21FFF300ECCFE9 /* Assets.xcassets */,
+				EA06FB002B24878B0048821D /* KidsContentSounds */,
 				EA7916A32B21FFF300ECCFE9 /* Preview Content */,
 			);
 			path = DailyScienceNews;
@@ -128,8 +193,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA06FB132B24879E0048821D /* Geometride Çevre Nedir?.mp3 in Resources */,
+				EA06FB152B24879E0048821D /* Atmosfer - Dünyanın Katmanları.mp3 in Resources */,
+				EA06FB182B24879E0048821D /* Su Yaşam Alanları.mp3 in Resources */,
+				EA06FB0F2B24879E0048821D /* Görme Duyusu.mp3 in Resources */,
+				EA06FB1A2B24879E0048821D /* Beyin Nedir ve Nasıl Çalışır?.mp3 in Resources */,
+				EA06FB1C2B24879E0048821D /* Nasıl Tat Alırız?.mp3 in Resources */,
+				EA06FB192B24879E0048821D /* Karbonhidratlar Nelerdir?.mp3 in Resources */,
 				EA7916A52B21FFF300ECCFE9 /* Preview Assets.xcassets in Resources */,
+				EA06FB172B24879E0048821D /* Mikroorganizmalar Bakteriler Virüsler.mp3 in Resources */,
+				EA06FB142B24879E0048821D /* Bakteri Nedir?.mp3 in Resources */,
+				EA06FB112B24879E0048821D /* Virüs Ve Bakteri Farklılıkları.mp3 in Resources */,
+				EA06FB1B2B24879E0048821D /* Dokunma Duyusu.mp3 in Resources */,
+				EA06FB102B24879E0048821D /* Proteinler Nelerdir?.mp3 in Resources */,
+				EA06FB122B24879E0048821D /* Koku Alma Duyusu.mp3 in Resources */,
 				EA7916A22B21FFF300ECCFE9 /* Assets.xcassets in Resources */,
+				EA06FB162B24879E0048821D /* Pi Sayısı (π).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA06FAFB2B247A920048821D /* KidsContentView.swift in Sources */,
+				EA06FAFD2B247B540048821D /* MainView.swift in Sources */,
+				EA1A3F9F2B3408A0007EA343 /* AudioPlayerView.swift in Sources */,
 				EA7916A02B21FFF000ECCFE9 /* NewsView.swift in Sources */,
 				EA7916AC2B22007200ECCFE9 /* NewsViewModel.swift in Sources */,
+				EA06FAF92B247A280048821D /* ScienceForKidsView.swift in Sources */,
+				EA06FAFF2B247CCD0048821D /* AudioPlayerManager.swift in Sources */,
 				EA79169E2B21FFF000ECCFE9 /* DailyScienceNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +353,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyScienceNews/Preview Content\"";
 				DEVELOPMENT_TEAM = 899LNTN484;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Günlük Bilim";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = beratridvanasilturk.DailyScienceNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,12 +384,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DailyScienceNews/Preview Content\"";
 				DEVELOPMENT_TEAM = 899LNTN484;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Günlük Bilim";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,7 +400,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = beratridvanasilturk.DailyScienceNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
